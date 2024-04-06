@@ -18,7 +18,7 @@ public class person {
     private int id;
     private String fullName;
     private int age;
-    private int salary;
+    private double salary;
 
     @XmlElement
     public int getId() {
@@ -45,11 +45,11 @@ public class person {
         this.age = age;
     }
     @XmlElement
-    public int getSalary() {
+    public double getSalary() {
         return salary;
     }
 
-    public void setSalary(int salary) {
+    public void setSalary(double salary) {
         this.salary = salary;
     }
 
